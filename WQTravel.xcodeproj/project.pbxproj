@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		583881481E6A796B00D53C80 /* WQDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 583881471E6A796B00D53C80 /* WQDetailViewController.m */; };
+		583979751E5DDB7300F5D6A9 /* WQMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 583979741E5DDB7300F5D6A9 /* WQMainViewController.m */; };
+		5839797A1E5DDC3900F5D6A9 /* WQMainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 583979791E5DDC3900F5D6A9 /* WQMainModel.m */; };
+		5839797D1E5DDC4600F5D6A9 /* WQMainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5839797C1E5DDC4600F5D6A9 /* WQMainCell.m */; };
+		583979831E5DDC9D00F5D6A9 /* WQDestinationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 583979821E5DDC9D00F5D6A9 /* WQDestinationViewController.m */; };
+		583979861E5DDCBD00F5D6A9 /* WQBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 583979851E5DDCBD00F5D6A9 /* WQBannerView.m */; };
+		583979891E5DDCDD00F5D6A9 /* WQAreaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 583979881E5DDCDD00F5D6A9 /* WQAreaModel.m */; };
+		583979901E5DDCF300F5D6A9 /* WQDesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5839798B1E5DDCF300F5D6A9 /* WQDesView.m */; };
+		583979921E5DDCF300F5D6A9 /* WQRightCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5839798F1E5DDCF300F5D6A9 /* WQRightCollectionViewCell.m */; };
+		583979961E5DDD1F00F5D6A9 /* WQMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 583979951E5DDD1F00F5D6A9 /* WQMineViewController.m */; };
+		5839799E1E5DDD6500F5D6A9 /* banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5839799B1E5DDD6500F5D6A9 /* banner.jpg */; };
+		5839799F1E5DDD6500F5D6A9 /* desBanner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5839799C1E5DDD6500F5D6A9 /* desBanner.jpg */; };
+		583979A01E5DDD6500F5D6A9 /* tr01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5839799D1E5DDD6500F5D6A9 /* tr01.jpg */; };
+		583979A81E5DE1CB00F5D6A9 /* WQDestinationProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 583979A71E5DE1CB00F5D6A9 /* WQDestinationProxy.m */; };
+		5861A1511E58798A00AC9E86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5861A1501E58798A00AC9E86 /* main.m */; };
+		5861A1541E58798A00AC9E86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5861A1531E58798A00AC9E86 /* AppDelegate.m */; };
+		5861A15C1E58798A00AC9E86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5861A15B1E58798A00AC9E86 /* Assets.xcassets */; };
+		5861A15F1E58798A00AC9E86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5861A15D1E58798A00AC9E86 /* LaunchScreen.storyboard */; };
+		5864A3061E65B3250021784E /* banner01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5864A3051E65B3250021784E /* banner01.jpg */; };
+		5864A3081E65B3380021784E /* banner02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5864A3071E65B3380021784E /* banner02.jpg */; };
+		5864A30A1E65B3450021784E /* banner03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5864A3091E65B3450021784E /* banner03.jpg */; };
+		5864A30D1E65B4990021784E /* WQMainScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5864A30C1E65B4990021784E /* WQMainScrollView.m */; };
+		5864A3101E65B5610021784E /* WQMianPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5864A30F1E65B5610021784E /* WQMianPageControl.m */; };
+		6538C97A1D16084E4EE86A1D /* libPods-WQTravel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 108E72A2369549DF28B8293B /* libPods-WQTravel.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		108E72A2369549DF28B8293B /* libPods-WQTravel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WQTravel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		583881461E6A796B00D53C80 /* WQDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQDetailViewController.h; sourceTree = "<group>"; };
+		583881471E6A796B00D53C80 /* WQDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQDetailViewController.m; sourceTree = "<group>"; };
+		583979731E5DDB7300F5D6A9 /* WQMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQMainViewController.h; sourceTree = "<group>"; };
+		583979741E5DDB7300F5D6A9 /* WQMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQMainViewController.m; sourceTree = "<group>"; };
+		583979781E5DDC3900F5D6A9 /* WQMainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQMainModel.h; sourceTree = "<group>"; };
+		583979791E5DDC3900F5D6A9 /* WQMainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQMainModel.m; sourceTree = "<group>"; };
+		5839797B1E5DDC4600F5D6A9 /* WQMainCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQMainCell.h; sourceTree = "<group>"; };
+		5839797C1E5DDC4600F5D6A9 /* WQMainCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQMainCell.m; sourceTree = "<group>"; };
+		583979811E5DDC9D00F5D6A9 /* WQDestinationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQDestinationViewController.h; sourceTree = "<group>"; };
+		583979821E5DDC9D00F5D6A9 /* WQDestinationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQDestinationViewController.m; sourceTree = "<group>"; };
+		583979841E5DDCBD00F5D6A9 /* WQBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQBannerView.h; sourceTree = "<group>"; };
+		583979851E5DDCBD00F5D6A9 /* WQBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQBannerView.m; sourceTree = "<group>"; };
+		583979871E5DDCDD00F5D6A9 /* WQAreaModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQAreaModel.h; sourceTree = "<group>"; };
+		583979881E5DDCDD00F5D6A9 /* WQAreaModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQAreaModel.m; sourceTree = "<group>"; };
+		5839798A1E5DDCF300F5D6A9 /* WQDesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQDesView.h; sourceTree = "<group>"; };
+		5839798B1E5DDCF300F5D6A9 /* WQDesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQDesView.m; sourceTree = "<group>"; };
+		5839798E1E5DDCF300F5D6A9 /* WQRightCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQRightCollectionViewCell.h; sourceTree = "<group>"; };
+		5839798F1E5DDCF300F5D6A9 /* WQRightCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQRightCollectionViewCell.m; sourceTree = "<group>"; };
+		583979941E5DDD1F00F5D6A9 /* WQMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQMineViewController.h; sourceTree = "<group>"; };
+		583979951E5DDD1F00F5D6A9 /* WQMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQMineViewController.m; sourceTree = "<group>"; };
+		5839799B1E5DDD6500F5D6A9 /* banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner.jpg; sourceTree = "<group>"; };
+		5839799C1E5DDD6500F5D6A9 /* desBanner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = desBanner.jpg; sourceTree = "<group>"; };
+		5839799D1E5DDD6500F5D6A9 /* tr01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tr01.jpg; sourceTree = "<group>"; };
+		583979A61E5DE1CB00F5D6A9 /* WQDestinationProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQDestinationProxy.h; sourceTree = "<group>"; };
+		583979A71E5DE1CB00F5D6A9 /* WQDestinationProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQDestinationProxy.m; sourceTree = "<group>"; };
+		5861A14C1E58798A00AC9E86 /* WQTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WQTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5861A1501E58798A00AC9E86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5861A1521E58798A00AC9E86 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5861A1531E58798A00AC9E86 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5861A15B1E58798A00AC9E86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5861A15E1E58798A00AC9E86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5861A1601E58798A00AC9E86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5864A3051E65B3250021784E /* banner01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner01.jpg; sourceTree = "<group>"; };
+		5864A3071E65B3380021784E /* banner02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner02.jpg; sourceTree = "<group>"; };
+		5864A3091E65B3450021784E /* banner03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner03.jpg; sourceTree = "<group>"; };
+		5864A30B1E65B4990021784E /* WQMainScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQMainScrollView.h; sourceTree = "<group>"; };
+		5864A30C1E65B4990021784E /* WQMainScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQMainScrollView.m; sourceTree = "<group>"; };
+		5864A30E1E65B5610021784E /* WQMianPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQMianPageControl.h; sourceTree = "<group>"; };
+		5864A30F1E65B5610021784E /* WQMianPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQMianPageControl.m; sourceTree = "<group>"; };
+		722EF0AE3C2DCAA7340D31E4 /* Pods-WQTravel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WQTravel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WQTravel/Pods-WQTravel.debug.xcconfig"; sourceTree = "<group>"; };
+		9523D3A0F95B9FD279275B50 /* Pods-WQTravel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WQTravel.release.xcconfig"; path = "Pods/Target Support Files/Pods-WQTravel/Pods-WQTravel.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5861A1491E58798A00AC9E86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6538C97A1D16084E4EE86A1D /* libPods-WQTravel.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5839796E1E5DDB3500F5D6A9 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				583979701E5DDB3500F5D6A9 /* Main */,
+				5839796F1E5DDB3500F5D6A9 /* Destination */,
+				583979711E5DDB3500F5D6A9 /* Mine */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		5839796F1E5DDB3500F5D6A9 /* Destination */ = {
+			isa = PBXGroup;
+			children = (
+				5839797E1E5DDC8C00F5D6A9 /* DestinationViewController */,
+			);
+			path = Destination;
+			sourceTree = "<group>";
+		};
+		583979701E5DDB3500F5D6A9 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				583979721E5DDB5D00F5D6A9 /* MainViewController */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		583979711E5DDB3500F5D6A9 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				583979931E5DDD1600F5D6A9 /* MineViewController */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		583979721E5DDB5D00F5D6A9 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				583979731E5DDB7300F5D6A9 /* WQMainViewController.h */,
+				583979741E5DDB7300F5D6A9 /* WQMainViewController.m */,
+				5864A30E1E65B5610021784E /* WQMianPageControl.h */,
+				5864A30F1E65B5610021784E /* WQMianPageControl.m */,
+				583881461E6A796B00D53C80 /* WQDetailViewController.h */,
+				583881471E6A796B00D53C80 /* WQDetailViewController.m */,
+				583979761E5DDC1D00F5D6A9 /* Models */,
+				583979771E5DDC1D00F5D6A9 /* Views */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		583979761E5DDC1D00F5D6A9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				583979781E5DDC3900F5D6A9 /* WQMainModel.h */,
+				583979791E5DDC3900F5D6A9 /* WQMainModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		583979771E5DDC1D00F5D6A9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				583979841E5DDCBD00F5D6A9 /* WQBannerView.h */,
+				583979851E5DDCBD00F5D6A9 /* WQBannerView.m */,
+				5839797B1E5DDC4600F5D6A9 /* WQMainCell.h */,
+				5839797C1E5DDC4600F5D6A9 /* WQMainCell.m */,
+				5864A30B1E65B4990021784E /* WQMainScrollView.h */,
+				5864A30C1E65B4990021784E /* WQMainScrollView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5839797E1E5DDC8C00F5D6A9 /* DestinationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				583979811E5DDC9D00F5D6A9 /* WQDestinationViewController.h */,
+				583979821E5DDC9D00F5D6A9 /* WQDestinationViewController.m */,
+				583979A51E5DE1B500F5D6A9 /* Proxy */,
+				5839797F1E5DDC8C00F5D6A9 /* Models */,
+				583979801E5DDC8C00F5D6A9 /* Views */,
+			);
+			path = DestinationViewController;
+			sourceTree = "<group>";
+		};
+		5839797F1E5DDC8C00F5D6A9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				583979871E5DDCDD00F5D6A9 /* WQAreaModel.h */,
+				583979881E5DDCDD00F5D6A9 /* WQAreaModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		583979801E5DDC8C00F5D6A9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5839798A1E5DDCF300F5D6A9 /* WQDesView.h */,
+				5839798B1E5DDCF300F5D6A9 /* WQDesView.m */,
+				5839798E1E5DDCF300F5D6A9 /* WQRightCollectionViewCell.h */,
+				5839798F1E5DDCF300F5D6A9 /* WQRightCollectionViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		583979931E5DDD1600F5D6A9 /* MineViewController */ = {
+			isa = PBXGroup;
+			children = (
+				583979941E5DDD1F00F5D6A9 /* WQMineViewController.h */,
+				583979951E5DDD1F00F5D6A9 /* WQMineViewController.m */,
+			);
+			path = MineViewController;
+			sourceTree = "<group>";
+		};
+		583979971E5DDD5300F5D6A9 /* Reasources */ = {
+			isa = PBXGroup;
+			children = (
+				5839799A1E5DDD5300F5D6A9 /* Images */,
+				583979981E5DDD5300F5D6A9 /* Audio */,
+				583979991E5DDD5300F5D6A9 /* Fonts */,
+			);
+			path = Reasources;
+			sourceTree = "<group>";
+		};
+		583979981E5DDD5300F5D6A9 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		583979991E5DDD5300F5D6A9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		5839799A1E5DDD5300F5D6A9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5839799B1E5DDD6500F5D6A9 /* banner.jpg */,
+				5864A3051E65B3250021784E /* banner01.jpg */,
+				5864A3071E65B3380021784E /* banner02.jpg */,
+				5864A3091E65B3450021784E /* banner03.jpg */,
+				5839799C1E5DDD6500F5D6A9 /* desBanner.jpg */,
+				5839799D1E5DDD6500F5D6A9 /* tr01.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		583979A11E5DDDA000F5D6A9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				583979A21E5DDDA000F5D6A9 /* Categories */,
+				583979A31E5DDDA000F5D6A9 /* Libraries */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		583979A21E5DDDA000F5D6A9 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		583979A31E5DDDA000F5D6A9 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		583979A41E5DDDD200F5D6A9 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		583979A51E5DE1B500F5D6A9 /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				583979A61E5DE1CB00F5D6A9 /* WQDestinationProxy.h */,
+				583979A71E5DE1CB00F5D6A9 /* WQDestinationProxy.m */,
+			);
+			path = Proxy;
+			sourceTree = "<group>";
+		};
+		5861A1431E58798A00AC9E86 = {
+			isa = PBXGroup;
+			children = (
+				5861A14E1E58798A00AC9E86 /* WQTravel */,
+				5861A14D1E58798A00AC9E86 /* Products */,
+				A54DA5FB657A0B94028FA716 /* Pods */,
+				EDF1DEC60C668F13763B7482 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5861A14D1E58798A00AC9E86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5861A14C1E58798A00AC9E86 /* WQTravel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5861A14E1E58798A00AC9E86 /* WQTravel */ = {
+			isa = PBXGroup;
+			children = (
+				5861A1521E58798A00AC9E86 /* AppDelegate.h */,
+				5861A1531E58798A00AC9E86 /* AppDelegate.m */,
+				583979A41E5DDDD200F5D6A9 /* Config */,
+				5839796E1E5DDB3500F5D6A9 /* Modules */,
+				583979A11E5DDDA000F5D6A9 /* Extensions */,
+				583979971E5DDD5300F5D6A9 /* Reasources */,
+				5861A14F1E58798A00AC9E86 /* Supporting Files */,
+			);
+			path = WQTravel;
+			sourceTree = "<group>";
+		};
+		5861A14F1E58798A00AC9E86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5861A15B1E58798A00AC9E86 /* Assets.xcassets */,
+				5861A15D1E58798A00AC9E86 /* LaunchScreen.storyboard */,
+				5861A1601E58798A00AC9E86 /* Info.plist */,
+				5861A1501E58798A00AC9E86 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A54DA5FB657A0B94028FA716 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				722EF0AE3C2DCAA7340D31E4 /* Pods-WQTravel.debug.xcconfig */,
+				9523D3A0F95B9FD279275B50 /* Pods-WQTravel.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EDF1DEC60C668F13763B7482 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				108E72A2369549DF28B8293B /* libPods-WQTravel.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5861A14B1E58798A00AC9E86 /* WQTravel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5861A1631E58798A00AC9E86 /* Build configuration list for PBXNativeTarget "WQTravel" */;
+			buildPhases = (
+				CDE58DC1E3F3BF24995DA196 /* [CP] Check Pods Manifest.lock */,
+				5861A1481E58798A00AC9E86 /* Sources */,
+				5861A1491E58798A00AC9E86 /* Frameworks */,
+				5861A14A1E58798A00AC9E86 /* Resources */,
+				E151B282EA33BFD775FDD6E0 /* [CP] Embed Pods Frameworks */,
+				5DFBBFC8BE0FE8048174AEC3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WQTravel;
+			productName = WQTravel;
+			productReference = 5861A14C1E58798A00AC9E86 /* WQTravel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5861A1441E58798A00AC9E86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "王倩";
+				TargetAttributes = {
+					5861A14B1E58798A00AC9E86 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = QLY4AL4FJC;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5861A1471E58798A00AC9E86 /* Build configuration list for PBXProject "WQTravel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5861A1431E58798A00AC9E86;
+			productRefGroup = 5861A14D1E58798A00AC9E86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5861A14B1E58798A00AC9E86 /* WQTravel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5861A14A1E58798A00AC9E86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5864A3061E65B3250021784E /* banner01.jpg in Resources */,
+				5861A15F1E58798A00AC9E86 /* LaunchScreen.storyboard in Resources */,
+				5861A15C1E58798A00AC9E86 /* Assets.xcassets in Resources */,
+				5839799F1E5DDD6500F5D6A9 /* desBanner.jpg in Resources */,
+				5864A30A1E65B3450021784E /* banner03.jpg in Resources */,
+				583979A01E5DDD6500F5D6A9 /* tr01.jpg in Resources */,
+				5864A3081E65B3380021784E /* banner02.jpg in Resources */,
+				5839799E1E5DDD6500F5D6A9 /* banner.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5DFBBFC8BE0FE8048174AEC3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WQTravel/Pods-WQTravel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDE58DC1E3F3BF24995DA196 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E151B282EA33BFD775FDD6E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WQTravel/Pods-WQTravel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5861A1481E58798A00AC9E86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5839797D1E5DDC4600F5D6A9 /* WQMainCell.m in Sources */,
+				583979831E5DDC9D00F5D6A9 /* WQDestinationViewController.m in Sources */,
+				583979921E5DDCF300F5D6A9 /* WQRightCollectionViewCell.m in Sources */,
+				583979751E5DDB7300F5D6A9 /* WQMainViewController.m in Sources */,
+				583979861E5DDCBD00F5D6A9 /* WQBannerView.m in Sources */,
+				583881481E6A796B00D53C80 /* WQDetailViewController.m in Sources */,
+				583979961E5DDD1F00F5D6A9 /* WQMineViewController.m in Sources */,
+				5839797A1E5DDC3900F5D6A9 /* WQMainModel.m in Sources */,
+				583979891E5DDCDD00F5D6A9 /* WQAreaModel.m in Sources */,
+				5861A1541E58798A00AC9E86 /* AppDelegate.m in Sources */,
+				5864A3101E65B5610021784E /* WQMianPageControl.m in Sources */,
+				5864A30D1E65B4990021784E /* WQMainScrollView.m in Sources */,
+				5861A1511E58798A00AC9E86 /* main.m in Sources */,
+				583979901E5DDCF300F5D6A9 /* WQDesView.m in Sources */,
+				583979A81E5DE1CB00F5D6A9 /* WQDestinationProxy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5861A15D1E58798A00AC9E86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5861A15E1E58798A00AC9E86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5861A1611E58798A00AC9E86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5861A1621E58798A00AC9E86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5861A1641E58798A00AC9E86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 722EF0AE3C2DCAA7340D31E4 /* Pods-WQTravel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QLY4AL4FJC;
+				INFOPLIST_FILE = WQTravel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangqian.WQTravel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5861A1651E58798A00AC9E86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9523D3A0F95B9FD279275B50 /* Pods-WQTravel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QLY4AL4FJC;
+				INFOPLIST_FILE = WQTravel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangqian.WQTravel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5861A1471E58798A00AC9E86 /* Build configuration list for PBXProject "WQTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5861A1611E58798A00AC9E86 /* Debug */,
+				5861A1621E58798A00AC9E86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5861A1631E58798A00AC9E86 /* Build configuration list for PBXNativeTarget "WQTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5861A1641E58798A00AC9E86 /* Debug */,
+				5861A1651E58798A00AC9E86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5861A1441E58798A00AC9E86 /* Project object */;
+}
